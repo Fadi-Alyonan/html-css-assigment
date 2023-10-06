@@ -739,7 +739,7 @@ header .container .menu .main-menu .btn-yellow i {
   }
 }
 .meet-our-team .container .section-titel .center-content a {
-  background-color: #ffffff;
+  background-color: transparent;
   color: #191919;
 }
 .meet-our-team .container .section-titel .center-content a:hover {
@@ -811,6 +811,8 @@ header .container .menu .main-menu .btn-yellow i {
 .testimonial .container .reviews .review-info .rating {
   color: #F94D1C;
   padding-bottom: 10px;
+  font-weight: 900;
+  font-size: 17px;
 }
 .testimonial .container .reviews .review {
   display: flex;
@@ -935,7 +937,7 @@ header .container .menu .main-menu .btn-yellow i {
 .singup .container label {
   font-family: "Dm sans", sans-serif;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 800;
 }
 .singup .container .singup-btn {
   display: flex;
@@ -1091,6 +1093,7 @@ header .container .menu .main-menu .btn-yellow i {
   .footer .container .footer-bottom {
     display: grid;
     text-align: center;
+    justify-content: center;
   }
 }
 .footer .container .footer-bottom a {

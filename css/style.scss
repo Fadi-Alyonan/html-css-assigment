@@ -752,7 +752,7 @@ header {
       }
       .center-content{
         a{
-          background-color: #ffffff;
+          background-color: transparent;
           color: #191919;
           &:hover{
             background-color: #191919;
@@ -816,6 +816,8 @@ header {
           .rating{
             color: #F94D1C;
             padding-bottom: 10px;
+            font-weight: 900;
+            font-size: 17px;
           }
         }
         .review{
@@ -932,7 +934,7 @@ header {
     label{
       font-family: "Dm sans", sans-serif;
       font-size: 30px;
-      font-weight: 700;
+      font-weight: 800;
     }
     .singup-btn{
       display: flex;
@@ -1063,6 +1065,7 @@ header {
         @media (max-width:998px) {
           display: grid;
           text-align: center;
+          justify-content: center;
         }
         a{
           color: #ffffff;
